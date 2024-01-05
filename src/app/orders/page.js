@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useState } from "react"
-import SectionHeaders from "../components/layout/SectionHeaders"
 import { useProfile } from "../components/UseProfile";
 import UserTabs from "../components/layout/UserTabs";
 import { DateTime } from "@/libs/DateTime";

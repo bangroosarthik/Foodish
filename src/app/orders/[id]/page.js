@@ -6,7 +6,6 @@ import { useParams } from "next/navigation";
 import AddressInputs from "@/app/components/layout/AddressInput";
 import { useProfile } from "@/app/components/UseProfile";
 import CartProduct from "@/app/components/menu/CartProduct";
-import Trash from "@/app/components/icons/Trash";
 export default function OrderPage(){
     const {clearCart}= useContext(CartContext);
     const {id}= useParams();

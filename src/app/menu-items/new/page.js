@@ -1,6 +1,5 @@
 'use client';
 import UserTabs from "@/app/components/layout/UserTabs";
-import Left from "@/app/components/icons/Left";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useProfile } from "@/app/components/UseProfile";
